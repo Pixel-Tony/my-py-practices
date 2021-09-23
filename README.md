@@ -1,1 +1,1 @@
-# my-py-practices
+# My Python practices from KPI
