@@ -1,4 +1,5 @@
-import math as m
+_fac = lambda n: 1 if n == 0 else n* _fac(n-1)
+e = sum([1/_fac(n) for n in range(20)])
 
 def log(a, b):
     '''Logarithm of a to base b'''
@@ -26,7 +27,7 @@ def log(a, b):
 
 def ln(a):
     '''Natural logarithm of a'''
-    return log(a, m.e)
+    return log(a, e)
 
 def lg(a):
     '''Base 10 logarithm of a'''
